@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info"
+info:
+  app:
+    name: eks demo app
+    version: 0.0.1-SNAPSHOT
+    description: more details about sprint boot microservice
+    contact-support: somesupport@abc.com
+  copyright: copyright (c) abc.com
+  license: MIT
+  tech-used:
+    - name: java
+      version: 11.x
+    - name: spring-boot
+      version: 2.x
